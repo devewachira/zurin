@@ -1,4 +1,4 @@
-# 🚀 Deployment Guide: Mwangi Chris (Zurinty Marketing)
+# 🚀 Deployment Guide: Zurinty (Nairobi Digital Marketing Agency)
 
 This guide provides step-by-step instructions for deploying your React + Node.js application to **Hostinger**.
 
@@ -49,7 +49,7 @@ You only need to upload the contents of the `backend/` folder.
 
 ## 🗄️ Step 4: Database Setup
 1. In hPanel, go to **Databases > MySQL Databases**.
-2. Create a new database and user (e.g., `u123_mwangidb`).
+2. Create a new database and user (e.g., `u123_zurintydb`).
 3. Note down the **Database Name**, **Username**, and **Password**.
 4. In your File Manager, create a file named `.env` inside your Node.js project root.
 5. Paste the following template and update it with your Hostinger details:
@@ -70,15 +70,15 @@ You only need to upload the contents of the `backend/` folder.
 ---
 
 ## 🔒 Step 5: SSL & Domain
-1. Ensure your domain `mwangichris.com` has an active **SSL Certificate** (Free SSL is included in most Hostinger plans).
-2. If you are using a subdomain like `api.mwangichris.com`, ensure it is pointed to the same directory or handled via Hostinger's Node.js selector.
-3. Your `backend/server.js` is already configured to allow `https://mwangichris.com` via CORS.
+1. Ensure your domain `zurinty.com` has an active **SSL Certificate** (Free SSL is included in most Hostinger plans).
+2. If you are using a subdomain like `api.zurinty.com`, ensure it is pointed to the same directory or handled via Hostinger's Node.js selector.
+3. Your `backend/server.js` is already configured to allow `https://zurinty.com` via CORS.
 
 ---
 
 ## 🛠️ Step 6: Final Verification
 1. Once the setup is complete, restart the Node.js application from the dashboard.
-2. Visit `https://mwangichris.com` in your browser.
+2. Visit `https://zurinty.com` in your browser.
 3. **Test the Contact Form:** Submit a test message to ensure the database saves the entry and the auto-subscription email is sent correctly.
 
 ## 💡 Pro Tip: Updates
@@ -88,4 +88,4 @@ Whenever you make changes to the frontend:
 3. You usually don't need to restart the server for frontend-only updates.
 
 ---
-*Guide generated for Mwangi Chris Project - March 2026*
+*Guide generated for Zurinty Project - March 2026*
